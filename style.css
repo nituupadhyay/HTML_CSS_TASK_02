@@ -1,0 +1,267 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.navigation-bar{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+    height: 450px;
+}
+
+/* .left-panel{
+    width: 35px;
+    background-color: black;
+    font: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    width: 100vh;
+    text-align: center;
+    position: fixed;
+} */
+
+.navbar{
+    font: white;
+    padding: 10px 250px;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 10px;
+    gap: 20px;
+    height: 150px;
+}
+
+h1,h5{
+    text-align: center;
+}
+
+/* .description-of-kazi{
+
+} */
+ h3 {
+    margin-left: 200px;
+ }
+
+ p{
+    text-align: center;
+ }
+
+#rebel-poet{
+    text-align: left;
+    width: 250px;
+    margin-left: 200px;
+}
+
+#awesome-writer{
+    text-align: left;
+    width: 300px;
+    margin-left: 200px;
+}
+
+/* .profile-card{
+ background: #ffffff;
+ padding: 1.5rem;
+ border-radius: 8px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ text-align: center;
+ margin-bottom: 500px;
+ display: flex;
+ justify-content: flex-end;
+ justify-content: center;
+ border-image-width: 50px;
+} */
+
+.profile-img{
+    max-width: fit-content;  
+    margin-left: 200px;
+}
+
+.bio-content{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    gap: 30px; 
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bio-text {
+  flex: 1;
+}
+
+.boxes{
+    margin-bottom: auto;
+}
+
+/* button{
+    padding: 0.2em;
+    column-gap: 0.2em;
+} */
+
+header{
+    grid-area: header;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2em;
+    justify-content: center;
+}
+
+#youtube-icon{
+    background-color: rgb(226, 29, 29);
+    color:white;
+    margin: 0;
+}
+
+#amazon-icon{
+    background-color: #ffff00b9;
+    color: white;
+    margin: 0;
+}
+
+#slogan{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 25px 25px;
+}
+
+#star-icon{
+    text-align: center;
+}
+
+.item1{
+    border: 1px solid black;
+    border-radius: 0%;
+    margin: 0%;
+    padding: 0%;
+    height: 70px;
+    width: fit-content;
+}
+
+.item2{
+    border: 1px solid black;
+    border-radius: 0%;
+    margin: 0%;
+    padding: 0%;
+    height: 70px;
+    width: fit-content;
+}
+
+.item3{
+    border: 1px solid black;
+    border-radius: 0%;
+    margin: 0%;
+    padding: 0%;
+    height: 70px;
+    width: fit-content;
+}
+
+.item4{
+    border: 1px solid black;
+    border-radius: 0%;
+    margin: 0%;
+    padding: 0%;
+    height: 70px;
+    width: fit-content;
+}
+
+.list-of-columns{
+    columns: 4;
+    column-gap: 40px;
+    background: white;
+    column-gap: 20px;
+    justify-content: space-between;
+    grid-row: auto;
+}
+
+#poetry{
+    text-align: left;
+}
+
+#list-of-poetry{
+    text-align: left;
+    block-size: auto;
+    column-count: 1;
+    position: absolute;
+    border-radius: 0%;
+}
+
+/* .horizontal-list ul{
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    flex-direction: row;
+    width: 50%;
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+.list-of-songs-and-poems{
+    text-align: right;
+    block-size: auto;
+    column-count: 1;
+    position: absolute;
+    border-radius: 0%;
+} */
+
+.summary-grid {
+  display: grid;
+  /* Generates two columns that cleanly split the available space equally */
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 15px; 
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: left;
+    padding: 25px 25px;
+}
+
+#left{
+    text-align: left;
+}
+
+#middle{
+    text-align: center;
+}
+
+#right{
+    text-align: right;
+}
+
+.footer-top {
+text-align: left;
+margin-top: 5px;
+padding-top: 2px;
+border-top: 1px solid #eee;
+font-size: 0.6em;
+color: #777;
+}
+
+.footer-divider {
+  border: 0;                 
+  height: 1px;             
+  background-color: #444444; 
+  margin: 2px 0;
+  font-size: 0.6em; 
+  color: #777;            
+}
+
+.footer-bottom {
+  border-top: 1px solid #e0e0e0; 
+  padding-top: 2px;             
+  text-align: right;   
+  font-size: 0.6em;
+  color: #777;     
+}

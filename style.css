@@ -12,21 +12,6 @@
     height: 450px;
 }
 
-/* .left-panel{
-    width: 35px;
-    background-color: black;
-    font: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 20px;
-    height: 100vh;
-    width: 100vh;
-    text-align: center;
-    position: fixed;
-} */
-
 .navbar{
     font: white;
     padding: 10px 250px;
@@ -42,9 +27,6 @@ h1,h5{
     text-align: center;
 }
 
-/* .description-of-kazi{
-
-} */
  h3 {
     margin-left: 200px;
  }
@@ -64,19 +46,6 @@ h1,h5{
     width: 300px;
     margin-left: 200px;
 }
-
-/* .profile-card{
- background: #ffffff;
- padding: 1.5rem;
- border-radius: 8px;
- box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- text-align: center;
- margin-bottom: 500px;
- display: flex;
- justify-content: flex-end;
- justify-content: center;
- border-image-width: 50px;
-} */
 
 .profile-img{
     max-width: fit-content;  
@@ -100,11 +69,6 @@ h1,h5{
 .boxes{
     margin-bottom: auto;
 }
-
-/* button{
-    padding: 0.2em;
-    column-gap: 0.2em;
-} */
 
 header{
     grid-area: header;
@@ -140,51 +104,6 @@ header{
     text-align: center;
 }
 
-.item1{
-    border: 1px solid black;
-    border-radius: 0%;
-    margin: 0%;
-    padding: 0%;
-    height: 70px;
-    width: fit-content;
-}
-
-.item2{
-    border: 1px solid black;
-    border-radius: 0%;
-    margin: 0%;
-    padding: 0%;
-    height: 70px;
-    width: fit-content;
-}
-
-.item3{
-    border: 1px solid black;
-    border-radius: 0%;
-    margin: 0%;
-    padding: 0%;
-    height: 70px;
-    width: fit-content;
-}
-
-.item4{
-    border: 1px solid black;
-    border-radius: 0%;
-    margin: 0%;
-    padding: 0%;
-    height: 70px;
-    width: fit-content;
-}
-
-.list-of-columns{
-    columns: 4;
-    column-gap: 40px;
-    background: white;
-    column-gap: 20px;
-    justify-content: space-between;
-    grid-row: auto;
-}
-
 #poetry{
     text-align: left;
 }
@@ -197,71 +116,74 @@ header{
     border-radius: 0%;
 }
 
-/* .horizontal-list ul{
-    display: flex;
-    gap: 20px;
-    flex: 1;
-    flex-direction: row;
-    width: 50%;
-    float: left;
-    margin: 0 20px 0 0;
-}
-
-.list-of-songs-and-poems{
-    text-align: right;
-    block-size: auto;
-    column-count: 1;
-    position: absolute;
-    border-radius: 0%;
-} */
-
 .summary-grid {
   display: grid;
-  /* Generates two columns that cleanly split the available space equally */
   grid-template-columns: repeat(2, 1fr); 
   gap: 15px; 
 }
-.footer{
-    background-color: black;
-    color: aliceblue;
-    text-align: left;
-    padding: 25px 25px;
-}
+
 
 #left{
-    text-align: left;
+    text-align: right;
 }
 
 #middle{
-    text-align: center;
+    text-align: right;
 }
 
 #right{
     text-align: right;
 }
 
-.footer-top {
-text-align: left;
-margin-top: 5px;
-padding-top: 2px;
-border-top: 1px solid #eee;
-font-size: 0.6em;
-color: #777;
+
+.grid-container {
+  display: grid; 
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  
+  grid-template-rows: 100px 100px; 
+  
+  gap: 20px; 
 }
 
-.footer-divider {
-  border: 0;                 
-  height: 1px;             
-  background-color: #444444; 
-  margin: 2px 0;
-  font-size: 0.6em; 
-  color: #777;            
+.item {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 0%;
+  text-align: center;
 }
 
-.footer-bottom {
-  border-top: 1px solid #e0e0e0; 
-  padding-top: 2px;             
-  text-align: right;   
-  font-size: 0.6em;
-  color: #777;     
+.grid-footer-part{
+  display: grid; 
+  
+  grid-template-columns: 1fr 1fr 1fr ; 
+  
+  grid-template-rows: 50px 50px; 
+  
+  gap: 20px; 
+
+  background-color: black;
+
+  padding: 15px 15px;
+
+  position: relative;
 }
+
+.item2 {
+  color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 0%;
+  text-align: justify;
+  font-size: 15px;
+  border-right: 2px solid #555;
+  flex: 1;
+  padding: 0 20px;
+}
+
+#footer-heading{
+    text-align: end;
+}
+
